@@ -1,0 +1,41 @@
+﻿@model SBMS.Model.Model.Product
+@{
+    Layout = null;
+}
+
+@using (Html.BeginForm("AddOrEdit", "Product", FormMethod.Post, new { onsubmit = "return SubmitForm(this)" }))
+{
+    @Html.HiddenFor(model => model.Id)
+    <div class="form-group">
+        @Html.LabelFor(model => model.PCode, new { @class = "control-label" })
+        @Html.EditorFor(model => model.PCode, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.PCode)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.ProductName, new { @class = "control-label" })
+        @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.ProductName)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Reorderlabel, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Reorderlabel, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.ImagePath, new { @class = "control-label" })
+        <input type="file" name="ImageFile" required>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+
+       
+        @Html.DropDownListFor(model => model.CatId, new SelectList(Model.Categories, "CatId", "CategoryName"), new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.CatId)
+        </div>
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary" />
+        <input type="reset" value="Reset" class="btn" />
+    </div>
+}

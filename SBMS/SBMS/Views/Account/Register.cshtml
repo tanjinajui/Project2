@@ -1,0 +1,128 @@
+﻿@model SBMS.Model.Model.User
+@{ 
+    ViewBag.Title = "Register";
+}
+
+<link href="~/Content/Site.css" rel="stylesheet" />
+
+
+<div class="container">
+
+    <div class="logo col-sm-12 text-center col-md-12 "> <img alt="" src="~/Images/dotnetsai.png" /></div>
+
+    <div class="clearfix"></div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <fieldset>
+            <legend class="legend">Register</legend>
+
+            <div class="panel">
+
+                <div class="panel-body">
+
+                    <div>
+                        @*@Html.ActionLink("List of all User", "Index", new { @class = "btn btn-info btn-pressure" })*@
+                    </div>
+                    <br />
+
+                    <div class="col-md-6 col-sm-6">
+                        <div class="row">
+
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-6">
+                                    User Name
+                                </div>
+
+                                <div class="col-md-6 col-sm-6">
+                                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.UserName)
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-6">
+                                    Password
+                                </div>
+
+                                <div class="col-md-6 col-sm-6">
+                                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Password)
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-6">
+                                    Full Name
+                                </div>
+
+                                <div class="col-md-6 col-sm-6">
+                                   
+                                    
+                                    @Html.TextBoxFor(m => m.FullName, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.FullName)
+                                </div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+
+
+
+                        <div class="row">
+
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-6">
+                                    EmailID
+                                </div>
+
+                                <div class="col-md-6 col-sm-6">
+
+                                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Email)
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+
+
+
+                        
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input id="Submit" class="btn btn-success" name="actionType" type="submit" value="Save" />
+
+                            @*@Html.ActionLink("Cancel", "Login", "Account", new { @class = "btn btn-success" })*@
+
+                        </div>
+                     
+
+
+                    </div>
+                </div>
+
+
+
+        </fieldset>
+    }
+</div>
+
+

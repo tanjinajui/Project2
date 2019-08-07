@@ -1,0 +1,5 @@
+D:\SBMS\SBMS.Model\bin\Debug\SBMS.Model.dll
+D:\SBMS\SBMS.Model\bin\Debug\SBMS.Model.pdb
+D:\SBMS\SBMS.Model\obj\Debug\SBMS.Model.csproj.CoreCompileInputs.cache
+D:\SBMS\SBMS.Model\obj\Debug\SBMS.Model.dll
+D:\SBMS\SBMS.Model\obj\Debug\SBMS.Model.pdb

@@ -1,0 +1,17 @@
+D:\SBMS\SBMS.Repository\bin\Debug\SBMS.Repository.dll.config
+D:\SBMS\SBMS.Repository\bin\Debug\SBMS.Repository.dll
+D:\SBMS\SBMS.Repository\bin\Debug\SBMS.Repository.pdb
+D:\SBMS\SBMS.Repository\bin\Debug\EntityFramework.dll
+D:\SBMS\SBMS.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\SBMS\SBMS.Repository\bin\Debug\SBMS.DatabaseContext.dll
+D:\SBMS\SBMS.Repository\bin\Debug\SBMS.Model.dll
+D:\SBMS\SBMS.Repository\bin\Debug\SBMS.DatabaseContext.pdb
+D:\SBMS\SBMS.Repository\bin\Debug\SBMS.DatabaseContext.dll.config
+D:\SBMS\SBMS.Repository\bin\Debug\SBMS.Model.pdb
+D:\SBMS\SBMS.Repository\bin\Debug\EntityFramework.xml
+D:\SBMS\SBMS.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\SBMS\SBMS.Repository\obj\Debug\SBMS.Repository.csprojAssemblyReference.cache
+D:\SBMS\SBMS.Repository\obj\Debug\SBMS.Repository.csproj.CoreCompileInputs.cache
+D:\SBMS\SBMS.Repository\obj\Debug\SBMS.Repository.csproj.CopyComplete
+D:\SBMS\SBMS.Repository\obj\Debug\SBMS.Repository.dll
+D:\SBMS\SBMS.Repository\obj\Debug\SBMS.Repository.pdb

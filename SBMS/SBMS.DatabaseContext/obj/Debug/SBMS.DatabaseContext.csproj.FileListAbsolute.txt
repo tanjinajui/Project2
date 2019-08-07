@@ -1,0 +1,17 @@
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\SBMS.DatabaseContext.dll.config
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\SBMS.DatabaseContext.dll
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\SBMS.DatabaseContext.pdb
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\EntityFramework.dll
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\EntityFramework.SqlServer.dll
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\SBMS.Model.dll
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\SBMS.Model.pdb
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\EntityFramework.xml
+D:\SBMS\SBMS.DatabaseContext\bin\Debug\EntityFramework.SqlServer.xml
+D:\SBMS\SBMS.DatabaseContext\obj\Debug\SBMS.DatabaseContext.csprojAssemblyReference.cache
+D:\SBMS\SBMS.DatabaseContext\obj\Debug\SBMS.DatabaseContext.Migrations.InitialCreate.resources
+D:\SBMS\SBMS.DatabaseContext\obj\Debug\SBMS.DatabaseContext.Migrations.Add_Customer_Supplier.resources
+D:\SBMS\SBMS.DatabaseContext\obj\Debug\SBMS.DatabaseContext.csproj.GenerateResource.cache
+D:\SBMS\SBMS.DatabaseContext\obj\Debug\SBMS.DatabaseContext.csproj.CoreCompileInputs.cache
+D:\SBMS\SBMS.DatabaseContext\obj\Debug\SBMS.DatabaseContext.csproj.CopyComplete
+D:\SBMS\SBMS.DatabaseContext\obj\Debug\SBMS.DatabaseContext.dll
+D:\SBMS\SBMS.DatabaseContext\obj\Debug\SBMS.DatabaseContext.pdb

@@ -1,0 +1,45 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - SMALL BUSINESS MANAGEMENT SYSTEM(SBMS)</title>
+    <link href="~/Images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+
+    @System.Web.Optimization.Scripts.Render("~/bundles/modernizr")
+    @System.Web.Optimization.Styles.Render("~/Content/css")
+</head>
+<body>
+<header>
+      
+    <div class="col-md-12 col-sm-12">
+        <section id="login">
+            @Html.Partial("_LoginPartial")
+        </section>
+    </div>
+        
+</header>
+<div id="body">
+    @RenderSection("featured", required: false)
+    <section class="">
+        @RenderBody()
+    </section>
+</div>
+<footer>
+    <div class="container">
+        <div class="text-center footer">
+            Designed & Developed By <a href="mailto:alnoman005@gmail.com">.NetSpider</a>
+        </div>
+    </div>
+</footer>
+  
+    
+@System.Web.Optimization.Scripts.Render("~/bundles/jquery")
+@System.Web.Optimization.Styles.Render("~/Content/themes/base/css")
+@System.Web.Optimization.Scripts.Render("~/bundles/modernizr")
+@System.Web.Optimization.Scripts.Render("~/bundles/jqueryui")
+@RenderSection("scripts", required: false)
+</body>
+</html>
